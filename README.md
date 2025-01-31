@@ -1,7 +1,3 @@
-# GridLayout
-Encargado: @Deimixsitago 
+# Maquetación Lvl 3
 
-Desarrollar los retos de gridgarden https://cssgridgarden.com/#es
-
-## Pruebas de solución
-![Ejercicio Realizado](./GridLayout_Realizado.png)
+Desarrollar la maquetacion lvl 3 de Qrates: https://www.frontendpractice.com/projects/qrates  
