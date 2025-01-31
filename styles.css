@@ -696,7 +696,23 @@ h1 {
     transition: transform 0.3s ease;
 }
 
-.artist-item:hover .artist-image {
+.artist-item1:hover .artist-image {
+    transform: scale(1.05);
+}
+
+.artist-item2:hover .artist-image {
+    transform: scale(1.05);
+}
+
+.artist-item3:hover .artist-image {
+    transform: scale(1.05);
+}
+
+.artist-item4:hover .artist-image {
+    transform: scale(1.05);
+}
+
+.artist-item5:hover .artist-image {
     transform: scale(1.05);
 }
 
