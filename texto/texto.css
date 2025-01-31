@@ -1,0 +1,38 @@
+body {
+    background-color: #121212;
+    color: #ffffff;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 10px;
+}
+
+.contenedor {
+    width: 100%;
+    max-width: 500px;
+    text-align: center;
+}
+
+textarea {
+    width: 100%;
+    min-height: 100px;
+    max-height: 300px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #333;
+    border-radius: 5px;
+    background-color: #1e1e1e;
+    color: #ffffff;
+    resize: none;
+    overflow-y: auto;
+    box-sizing: border-box;
+}
+
+#contador {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #888;
+}
