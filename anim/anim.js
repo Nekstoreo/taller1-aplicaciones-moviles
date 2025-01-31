@@ -2,8 +2,11 @@ document.addEventListener("DOMContentLoaded", () => {
     // Mover la nube de izquierda a derecha
     let nube = document.getElementById("nube");
     let nubeX = -100; // Posición inicial fuera de pantalla
+    // Sonido Bici
+    let sonidoViento = new Audio("sonidos/viento.mp3");
 
     function moverNube() {
+        sonidoViento.play();
         nubeX += 1;
         nube.style.left = nubeX + "px";
 
