@@ -33,7 +33,7 @@ document.addEventListener("DOMContentLoaded", () => {
             bici.style.transform = `scaleX(${direccion})`; // Voltea la bici en x
         }
 
-        campanaBici.play();
+        
 
         requestAnimationFrame(moverBici);
     }
