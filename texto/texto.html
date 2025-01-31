@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contador de Caracteres</title>
+    <style>
+        body {
+            background-color: #121212;
+            color: #ffffff;
+            font-family: sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            padding: 10px;
+        }
+
+        .contenedor {
+            width: 100%;
+            max-width: 500px;
+            text-align: center;
+        }
+
+        textarea {
+            width: 100%;
+            min-height: 100px;
+            max-height: 300px;
+            padding: 10px;
+            font-size: 16px;
+            border: 1px solid #333;
+            border-radius: 5px;
+            background-color: #1e1e1e;
+            color: #ffffff;
+            resize: none;
+            overflow-y: auto;
+            box-sizing: border-box;
+        }
+
+        #contador {
+            margin-top: 10px;
+            font-size: 14px;
+            color: #888;
+        }
+
+        @media (max-width: 600px) {
+            body {
+                height: auto;
+                padding: 20px;
+            }
+
+            textarea {
+                font-size: 14px;
+            }
+
+            #contador {
+                font-size: 12px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="contenedor">
+        <textarea id="textInput" placeholder="Escribe algo..."></textarea>
+        <div id="contador">0 caracteres</div>
+    </div>
+
+    <script>
+        document.getElementById('textInput').addEventListener('input', function() {
+            const contador = this.value.length;
+            document.getElementById('contador').textContent = contador + ' caracteres';
+        });
+    </script>
+</body>
+</html>
