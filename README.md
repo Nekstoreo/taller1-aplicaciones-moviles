@@ -1,1 +1,1 @@
-# taller1-aplicaciones-moviles
+# Diagrama UML - Pelicula en cartelera
