@@ -59,9 +59,7 @@ body {
     cursor: pointer;
 }
 
-/* ... (estilos anteriores se mantienen igual) ... */
-
-/* Hero Section */
+/* Hero Seccion */
 .hero {
     display: grid;
     grid-template-columns: 45% 55%;
@@ -152,7 +150,7 @@ h1 {
     object-fit: contain;
 }
 
-/* Responsive Design */
+/* Diseño Responsive */
 @media (max-width: 1200px) {
     h1 {
         font-size: 3.5rem;
@@ -239,9 +237,8 @@ h1 {
         width: 85%;
     }
 }
-/* ... (estilos anteriores se mantienen igual) ... */
 
-/* Production Models Section */
+/* Production Models Seccion */
 .production-models {
     padding: 4rem 2rem;
     max-width: 1400px;
@@ -275,9 +272,26 @@ h1 {
     background-color: #FFF804;
 }
 
+.crowdfunding .model-tag {
+    color: black;
+    display: block;
+    margin: 0 auto;
+    font-size: 15px;
+}
+
+.crowdfunding .learn-more{
+    display: block;
+    margin: 0 auto;
+}
+
+.press-sell .learn-more {
+    display: block;
+    margin: 0 auto;
+}
+
 .press-sell {
     background-color: #81836C;
-    color: white;
+    color: black;
 }
 
 .model-tag {
@@ -291,7 +305,10 @@ h1 {
 }
 
 .press-sell .model-tag {
-    color: #81836C;
+    color: black;
+    display: block;
+    margin: 0 auto;
+    font-size: 15px;
 }
 
 .model h2 {
@@ -356,7 +373,7 @@ h1 {
     white-space: nowrap;
 }
 
-/* Responsive adjustments */
+/* Responsive ajustes */
 @media (max-width: 1024px) {
     .models-container {
         grid-template-columns: 1fr;
@@ -406,14 +423,14 @@ h1 {
 }
 
 
-/* Responsive adjustments */
+/* Responsive ajustes */
 @media (max-width: 768px) {
     .model-illustration {
         max-width: 200px;
     }
 }
 
-/* Services Section Styles */
+/* Services Seccion Styles */
 .services {
     padding: 4rem 2rem;
     max-width: 1400px;
@@ -497,7 +514,7 @@ h1 {
     color: #666;
 }
 
-/* Responsive Design */
+/* Diseño Responsive */
 @media (max-width: 1024px) {
     .services-container {
         grid-template-columns: 1fr;
@@ -523,7 +540,7 @@ h1 {
     }
 }
 
-/* Distribution Section */
+/* Distribution Seccion */
 .distribution {
     padding: 4rem 2rem;
     max-width: 1400px;
@@ -575,7 +592,7 @@ h1 {
     margin-bottom: 2rem;
 }
 
-/* Community Section */
+/* Community Seccion */
 .community {
     padding: 4rem 2rem;
     max-width: 1400px;
@@ -639,7 +656,7 @@ h1 {
     font-weight: 500;
 }
 
-/* Responsive Design */
+/* Diseño Responsive */
 @media (max-width: 1024px) {
     .distribution-container {
         grid-template-columns: 1fr;
@@ -664,7 +681,7 @@ h1 {
     }
 }
 
-/* Artist Navigation Bar */
+/* Artist Nav Bar */
 .artist-nav {
     display: flex;
     justify-content: center;
@@ -687,7 +704,7 @@ h1 {
     opacity: 0.7;
 }
 
-/* Testimonials Section */
+/* Testimonials Seccion */
 .testimonials {
     padding: 0;
     max-width: 1400px;
@@ -762,7 +779,7 @@ h1 {
     object-fit: cover;
 }
 
-/* Responsive Design */
+/* Diseño Responsive */
 @media (max-width: 1024px) {
     .testimonial-container {
         grid-template-columns: 1fr;
@@ -787,7 +804,7 @@ h1 {
     }
 }
 
-/* Vinyl Studio Section */
+/* Vinyl Studio Seccion */
 .vinyl-studio {
     background-color: var(--black);
     color: var(--white);
@@ -940,7 +957,7 @@ h1 {
     text-decoration: none;
 }
 
-/* Responsive Design */
+/* Diseño Responsive */
 @media (max-width: 1024px) {
     .footer-columns {
         grid-template-columns: repeat(2, 1fr);
