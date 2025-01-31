@@ -87,6 +87,17 @@ body {
     font-weight: 500;
 }
 
+.distro-box .tag {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    background-color: var(--white);
+    color: var(--black);
+    font-size: 0.75rem;
+    border-radius: 20px;
+    margin-bottom: 2rem;
+    font-weight: 500;
+}
+
 h1 {
     font-size: 4rem;
     line-height: 1.1;
@@ -724,6 +735,17 @@ h1 {
     justify-content: center;
 }
 
+.testimonial-content .tag {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    background-color: var(--white);
+    color: var(--black);
+    font-size: 0.75rem;
+    border-radius: 20px;
+    margin-bottom: 2rem;
+    font-weight: 500;
+}
+
 .testimonial-carousel {
     margin: 3rem 0;
 }
@@ -815,6 +837,17 @@ h1 {
 .vinyl-studio h2 {
     font-size: 3rem;
     margin: 1.5rem 0;
+}
+
+.vinyl-studio .tag {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    background-color: var(--white);
+    color: var(--black);
+    font-size: 0.75rem;
+    border-radius: 20px;
+    margin-bottom: 2rem;
+    font-weight: 500;
 }
 
 .studio-description {
